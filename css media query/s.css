@@ -1,0 +1,22 @@
+
+.heading{
+    color: aqua;
+}
+
+@media print{
+    .heading{
+        color: rgb(99, 241, 99);
+        
+    }
+}
+
+.bg-container{
+    height: 100vh;
+    width: 100%;
+    border: 2px solid black;
+}
+@media(width: 805px){
+    .bg-container{
+        background-color: blue;
+    }
+}
