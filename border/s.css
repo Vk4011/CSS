@@ -1,0 +1,32 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+
+.box{
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    background-color: palevioletred;
+    border-radius:  10% 50%;
+}
+.box1{
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(244, 173, 197);
+    border-bottom-right-radius: 100%;
+}
+.box2{
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(236, 48, 111);
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}

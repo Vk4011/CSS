@@ -1,0 +1,33 @@
+
+body {
+  margin: 0px;
+}
+
+.boxes-container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;  
+  border: 10px solid goldenrod;
+}
+
+.box {
+  color: white;
+  font-size: 60px;
+  padding: 10px;
+  font-family: "Roboto";
+}
+
+.box1 {
+  background-color: #1abc9c;
+  flex-grow: 2;
+}
+
+.box2 {
+  background-color: #3498db;
+  flex-grow: 1;
+}
+
+.box3 {
+  background-color: #9b59b6;
+  flex-grow: 0;
+}
