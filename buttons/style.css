@@ -1,0 +1,35 @@
+:root {
+    --clr-neon: hsl(3137 100% 54%);
+    --clr-bg: hsl(323 21% 16%);
+}
+
+*,
+*::before,
+*::after{
+    box-sizing:  border-box;
+}
+
+body{
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        background: var(--clr-bg);
+        font-family: "Balsamiq Sans",cursive;
+        color: var(--clr-neon);
+        
+}
+
+.neon-button{
+    color: var(--clr-neon);
+    font-size:  2rem;
+    display: inline-block;
+    cursor:  pointer;
+    text-decoration: none;
+    color: var(--clr-neon);
+    border: var(--clr-neon) 0.125em solid;
+    padding: 0.25em 1em;
+    border-radius: 0.25em;
+    text-shadow: :0 0 0.125em hsl(0 0% l00% / 0.5),
+    0 0 0.45em currentColor ;
+
+}

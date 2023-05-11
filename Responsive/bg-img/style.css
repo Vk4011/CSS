@@ -1,0 +1,13 @@
+
+.bg-container{
+    height: 100vh;
+    background-image: url(n.jpg);
+    background-size: cover;
+}
+
+@media screen and (min-width: 1000px){
+    .bg-container{
+        background-image:  url(c.jpg);
+    }
+}
+

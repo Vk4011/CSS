@@ -1,0 +1,28 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+
+}
+
+img{
+    width: 450px;
+    margin: 5px;
+
+}
+
+@media (min-width: 2000px){
+    .img1{
+        display: none;
+
+    }
+}
+
+@media screen and (max-width: 599px) {
+    .img2{
+        display: none;
+    }
+    
+}
