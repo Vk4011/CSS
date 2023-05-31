@@ -1,0 +1,54 @@
+html{
+    color-scheme: light dark ;
+}
+body{
+    display: grid;
+    place-items: center;
+}
+
+.container{
+    width: 85%;
+    height: 80%;
+    border: 2px solid royalblue;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.d{
+    width: 150px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2rem;
+    border:  2px solid rgb(253, 11, 253);
+    margin-top: 300px;
+    color: rgb(23, 235, 19);
+    font-size: 1.5rem;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: skew(45deg);
+    margin-bottom: 200px;
+}
+
+.t{
+    transform: translate(25px , 45px );
+}
+
+.r{
+    transform: rotate(-45deg);
+}
+
+.s{
+    transform: scale(1.5,2);
+}
+
+
+.skew{
+    transform: skew(45);
+}
