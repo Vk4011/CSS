@@ -2,8 +2,10 @@ html{
     color-scheme: light dark ;
 }
 body{
-    display: grid;
-    place-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
 }
 
 .container{
@@ -51,4 +53,57 @@ body{
 
 .skew{
     transform: skew(45);
+}
+
+.h{
+    box-shadow: 0 0 5px cyan,0 0 25px cyan;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 1rem;
+    padding-left: 2em;
+    padding-right: 2rem;
+    font-weight:  bold;
+    border-radius: 1em;
+    background-image: linear-gradient(to right , rgb(73, 251, 251),rgb(23, 127, 127) );
+}
+.h:hover{
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan, 0 0 200px cyan;
+}
+.btn{
+    padding: 1rem;
+    padding-left: 2em;
+    padding-right: 2rem;
+    font-weight:  bold;
+    border-radius: 1em;
+    background-image: linear-gradient(to right , rgb(125, 153, 227),rgb(20, 103, 247),rgb(127, 149, 229)
+     );
+     margin: 10px;
+    box-shadow: skyblue,skyblue;
+     
+}
+.btn:hover{
+    box-shadow:0 0 5px  rgb(107, 107, 244) ,0 0 25px  rgb(107, 107, 236),
+    0 0 100px  rgb(107, 107, 236),0 0 200px  rgb(107, 107, 236)    ;
+}
+
+.g{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 10px;
+    font-weight: 900;
+    position: absolute;
+    top:100px;
+    left: 400px;
+    background-image: linear-gradient(to right , rgb(190, 95, 245), rgb(190, 66, 236),rgb(186, 80, 239)
+    );
+    box-shadow:0 0 5px rgb(229, 81, 180),0 0 25px rgb(240, 18, 170);
+
+}
+.g:hover{
+    box-shadow: 0 0 5px rgb(229, 81, 180),0 0 25px rgb(240, 18, 170),
+    0 0 50px rgb(229, 81, 180),0 0 100px rgb(240, 18, 170);
 }
