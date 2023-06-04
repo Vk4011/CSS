@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="png" href="browser.png">
+    <title>Search</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="search.js"></script> 
+</head>
+<body>
+    <div class="maincontainer">
+    <div class="search">
+      <img class="planent" src="planet-earth.png" />
+      <div class="sun"></div>
+      <div class="sun1"></div>
+      <div class="moon"></div>
+      <p></p>
+      <img src="earth.png"  class="sun" alt="">
+      <img src="jupiter.png" class="sun1">
+      <img src="moon.png"  class="moon" alt="">
+      <div class="moon2"></div>
+      <img src="mars.png" class="moon2" alt="">
+      <img src="venus.png" class="venus" alt="">
+      <img src="mercury.png" class="mercury" alt="">
+      <img src="uranus.png"  class="uranus" alt="">  
+
+      <br />
+      <input placeholder="Type a keyword and press Enter to search"
+       type="search" class="search-input" id="searchInput" />
+    </div>
+    
+    <!-- <div class="d-none" id="spinner">
+      <div class="d-flex justify-content-center">
+        <div class="spinner-border" role="status">
+          <span class="sr-only">Loading...</span>
+        </div>
+      </div>
+    </div> -->
+
+
+    <div class="search-results" id="searchResults"></div>
+  </div>
+  <script>
+    let aS = false; 
+    setInterval(()=>{ 
+        if(!aS){ document.title = "Hello..! 🌏" }
+     else{ document.title = " Lets code  💻" }
+      aS=!aS
+     },1000) 
+
+  </script>
+</body>
+</html>

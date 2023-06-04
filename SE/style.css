@@ -1,0 +1,353 @@
+
+html{
+    color-scheme:  dark light;
+}
+
+  .search {
+    border-width: 1px;
+    border-style: solid; 
+    border-color: #d5cdcd;
+    padding-top: 100px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    background-image: linear-gradient( to right ,rgb(105, 193, 237),rgba(71, 130, 232, 0.682), rgb(102, 177, 226));
+    box-shadow:  0 0 5px rgb(94, 214, 244), 0 0 50px rgb(131, 228, 239);
+ 
+  }
+  
+  .planent {
+    margin-bottom: 30px;
+    width: 250px;
+ }
+  
+  .search-input {
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    padding: 20px;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    border-width: 1px;
+    border-style: solid; 
+    border-color: #f76baa;
+    box-shadow:  0 0 5px rgb(216, 92, 227), 0 0 10px rgb(203, 88, 241),
+    0 0 50px rgb(216, 92, 227), 0 0 100px rgb(203, 88, 241);
+    font-size: 18px;
+  }
+  
+  
+  .search-results {
+    width: 100%;
+    padding-left: 20px;
+    border: 1px solid black;
+
+  }
+  
+  .result-item {
+    margin-bottom: 20px;
+  }
+  
+  .result-title {
+    font-size: 2rem;
+  }
+  
+  .link-description {
+    font-size: 15px;
+    color: #444444;
+  }
+  
+  .result-url {
+    color: #006621;
+    text-decoration: none;
+  }
+
+
+
+
+  .moon{
+    width: 70px;
+    height: 70px;
+    border: 1px solid #bd61ee;
+    background-image: radial-gradient(rgb(197, 96, 252),rgb(116, 135, 243));
+    border-radius:360px ;
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    animation: b 1.5s infinite;
+    box-shadow: 0 0  10px rgb(186, 70, 240),0 0  50px rgb(184, 80, 240);
+    
+    
+  }
+  .sun{
+    width: 100px;
+    height: 100px;
+    background-image: radial-gradient(rgba(224, 102, 252, 0.973),rgba(229, 43, 243, 0.874));
+    border-radius:360px ;
+    position: absolute;
+    top: 300px;
+    left: 800px;
+    animation: e 4s infinite ease-in-out;
+    box-shadow: 0 0  5px rgb(18, 169, 245),0 0  50px rgb(39, 138, 244);
+  
+  }
+  
+@keyframes e{
+    0%{
+
+    }
+    25%{
+        left: 1200px;
+        top: 300px;
+    }
+    50%{
+        left: 1200px;
+        top: 300px;
+    }
+    75%{
+        left: 1200px;
+        top: 300px;
+    }
+    100%{
+        left: 1200px;
+        top: 300px;
+
+    }
+}
+
+
+
+  @keyframes bounce  {
+    0%{
+      right: 100px;
+  
+      }
+    50%{
+      right: 700px;
+    }
+    75%{
+      top:100px;
+    }
+  
+    100%{
+      top: 250px
+    }
+  }
+  
+  @keyframes b{
+    0%{
+      right: 100px;
+      
+    }
+    25%{
+      top:300px
+    }
+    50%{
+      right:300px
+    }
+  100%{
+    top: 100px;
+  }
+  }
+
+.sun1{
+    width: 150px;
+    height: 150px;
+    border: 1px solid #e4814f;
+    background-image: radial-gradient(rgba(232, 138, 70, 0.844),rgba(246, 125, 44, 0.813));
+    border-radius:360px ;
+    position: absolute;
+    top: 100px;
+    right: 50px;
+    animation: b 2s infinite;
+    box-shadow: 0 0  10px rgb(228, 124, 80),0 0  50px rgb(222, 110, 81);
+}
+.moon2{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #f75d5d;
+    background-image: radial-gradient(rgb(12, 125, 245),rgb(83, 194, 238));
+    border-radius:360px ;
+    position: absolute;
+    top: 100px;
+    right: 200px;
+    animation: bounce 3.5s infinite;
+    box-shadow: 0 0  5px rgb(237, 62, 80),0 0  50px rgb(244, 11, 46);
+
+
+}
+
+.mercury{
+    width: 80px;
+    height: 80px;
+    border: 1px solid #f75d5d;
+    background-image: radial-gradient(rgb(12, 125, 245),rgb(83, 194, 238));
+    border-radius:360px ;
+    position: absolute;
+    top: 250px;
+    right: 9000px;
+    animation: m 3.5s infinite;
+    box-shadow: 0 0  5px rgb(244, 97, 111),0 0  10px rgb(244, 11, 46),
+    0 0  50px rgb(244, 97, 111),0 0  100px rgb(244, 11, 46);
+
+}
+
+
+@keyframes m{
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+    0%{
+        top: 100px;
+        
+      }
+      100%{
+      right: 200px;
+    }
+  }
+
+  
+
+
+.venus{
+    width: 90px;
+    height: 90px;
+    border: transparent;
+    background-image: radial-gradient(rgb(231, 166, 61),rgb(231, 166, 61));
+    border-radius:360px ;
+    position: absolute;
+    top: 100px;
+    left: 1050px;
+    background-color: orange;
+  
+    animation: s 2s infinite ease-in;
+    box-shadow: 0 0  500px rgb(231, 166, 61),0 0  100px rgba(237, 138, 62, 0.966);
+
+}
+
+
+
+p{
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+
+    /* position: absolute; */
+}
+
+
+p::after {
+    content: "Develop";
+    display: inline-block;
+    font-weight: 900;
+    font-size:  2rem;
+    animation: animation 6.5s steps(9) infinite;
+    width: 0ch;
+    color: rgb(29, 227, 25);
+  }
+  p::before {
+    display: inline-block;
+    content: "";
+    width: 2px;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    animation: blinking .4s linear alternate infinite;
+  }
+
+
+@keyframes animation{
+    25%{
+        content: "Search";
+        width:  8.5ch;
+
+    }
+    40%{
+        width: 0ch;
+    }
+    75%{
+        content: "Learn";
+        width: 7.5ch;
+    
+    }
+    90%{
+        width: 0ch;
+    }
+}
+@keyframes blinking{
+    100%{
+        opacity: 0;
+    }
+}
+
+.uranus{
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    left: 1200px;
+    top: 400px;
+    animation: u 2s infinite ;
+    
+}
+
+
+@keyframes u{
+    /* 0%    { opacity: 0; }
+  20%   { opacity: 1; }
+  80%   { opacity: 0; }
+  100%  { opacity: 1; } */
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(180deg);
+  }
+  0%{
+    left: 800px;
+
+  }
+  25%{
+    right:300px
+  }
+  50%{
+    left:800px
+  }
+100%{
+  top: 100px;
+}
+    
+    
+}
+
+.venus{
+    box-shadow: 0 0  5px rgb(231, 166, 61),0 0  10px rgba(237, 138, 62, 0.966),
+    0 0  50px rgb(231, 166, 61),0 0  100px rgba(237, 138, 62, 0.966) ;
+    animation: venus 8s infinite;
+}
+
+@keyframes venus{
+    0%{
+        top: 200px;
+    }
+    25%{
+        right: 60px;
+    }
+    50%{
+        left: 500px;
+    }
+    100%{
+        right: 250px;
+    }
+}
